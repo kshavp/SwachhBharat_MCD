@@ -84,6 +84,9 @@ video{
         margin-top: 30%;
         overflow: scroll;
     }
+    video{
+        margin-top: 30%;
+    }
 }
 
 .mid-section button{
