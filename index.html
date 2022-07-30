@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top-section">
+        <div class="sect-left">
+        <h1><span id="M">M</span>CD</h1>
+        <h3><span id="Mun">Municipal</span> Corporation of Delhi</h3>
+        </div>
+        <div class="sect-right">
+            <h4>Click Here 👇</h4>
+            <img id="imgbut" class="imgbut" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxXf9qEj6m5K5WYtNIpWItdPfC762X4L-O3VBHNJ6FmYWfddklCaYeItvOvrr6e74zuag&usqp=CAU" alt="">
+        </div>
+    </div>
+    <div class="vid-section">
+        <video id="swachh" width="400px" src="swachh.mp4"></video>
+    </div>
+    <div class="mid-section">
+        <div class="top">
+            <div class="img-info">
+                <img src="http://www.mcdonline.gov.in/images/north%20delhi%20municipal%20corporation.jpg?crc=151556493" alt="" class="img1">
+                <figcaption>Official Site of the North Delhi Municipal Corporation.</figcaption>
+                <a href="http://mcdonline.gov.in/tri/ndmc_mcdportal/"><button>CLICK HERE</button></a>
+            </div>
+            
+            <div class="img-info">
+                <img src="http://www.mcdonline.gov.in/images/sdmc-logo.jpg?crc=369536152" alt="" class="img2">
+                <figcaption>Official Site of the South Delhi Municipal Corporation.</figcaption>
+                <a href="http://mcdonline.gov.in/tri/sdmc_mcdportal/"><button>CLICK HERE</button></a>
+            </div>
+            
+            <div class="img-info">
+                <img src="http://www.mcdonline.gov.in/images/east-mcd-corel-logo.jpg?crc=4004623485" alt="" class="img3">
+                <figcaption>Official Site of the East Delhi Municipal Corporation.</figcaption>
+                <a href="http://mcdonline.gov.in/tri/edmc_mcdportal/"><button>CLICK HERE</button></a>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <img src="http://www.mcdonline.gov.in/images/digital-india.jpg?crc=4197293236" alt="">
+            <img src="http://www.mcdonline.gov.in/images/smart%20city%20logo.jpg?crc=4131699660" alt="">
+            <img src="http://www.mcdonline.gov.in/images/swatch-bharat-inner-new.jpg?crc=488283097" alt="">
+            <img src="http://www.mcdonline.gov.in/images/invc-news-new-delhicivil-society-organizationselection-commission-of-india-eci-sveep-iiiagencies-nlma-ncc-nss-prasar-bharati-undp.jpg?crc=383457334" alt="">
+        </div>
+    </div>
+
+
+    <div class="bottom">
+        <button>Download Mutation<br>Certificate</button>
+        <p>Municipal Corporation of Delhi</p>
+        <p2>MCD</p2>
+        <button>Ease of Doing Business<br>(Construction Permits)</button>
+    </div>
+    <script>
+        const video = document.getElementById('swachh');
+        const vidBut = document.getElementById('imgbut');
+        
+        vidBut.addEventListener('click',()=>{
+            video.style.display = 'block';
+            video.play();
+        });
+    </script>
+</body>
+</html>
